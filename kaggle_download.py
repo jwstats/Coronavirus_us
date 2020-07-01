@@ -1,6 +1,6 @@
 
-import kaggle
-import pandas as pd
+
+# import pandas as pd
 
 
 # def extract_kaggle(urlpath):
@@ -27,12 +27,12 @@ import pandas as pd
 
 if __name__ == "__main__":
     print("Run from Main Program")
-    
-    
+
+
 else:
     print('{} module imported...'.format(__name__))
     import os
-    import kaggle
+    import pandas as pd
     os.environ['KAGGLE_USERNAME'] = "jwill93"
     os.environ['KAGGLE_KEY'] = "9d13bc6586379f81d5c7530d72964f1d"
     os.system('kaggle datasets download -d sudalairajkumar/novel-corona-virus-2019-dataset --unzip')
@@ -48,4 +48,4 @@ else:
 
     # Store Pandas Dataframe
     df = pd.read_csv(
-        "C:/Users/jwill/OneDrive/Desktop/Python/Coronavirus/covid_19_data.csv")
+        "/home/jwstats/Coronavirus_us/covid_19_data.csv")

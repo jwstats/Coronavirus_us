@@ -19,7 +19,7 @@ json5==0.8.5
 jsonschema==3.0.2
 kaggle==1.5.6
 MarkupSafe==1.1.1
-numpy==1.19.0
+numpy==1.17.3
 pandas==0.25.2
 plotly==4.5.4
 pyrsistent==0.16.0
